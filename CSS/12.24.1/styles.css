@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+span,
+li.special {
+    list-style: upper-alpha;
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+body h1+p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
