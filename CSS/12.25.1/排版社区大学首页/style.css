@@ -1,0 +1,301 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'open sans', sans-serif;
+}
+
+header,
+footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-bold-webfont.woff2') format('woff2'),
+        url('opensans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-bolditalic-webfont.woff2') format('woff2'),
+        url('opensans-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-extrabold-webfont.woff2') format('woff2'),
+        url('opensans-extrabold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-extrabolditalic-webfont.woff2') format('woff2'),
+        url('opensans-extrabolditalic-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-italic-webfont.woff2') format('woff2'),
+        url('opensans-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-light-webfont.woff2') format('woff2'),
+        url('opensans-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-lightitalic-webfont.woff2') format('woff2'),
+        url('opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+        url('opensans-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-semibold-webfont.woff2') format('woff2'),
+        url('opensans-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-semibolditalic-webfont.woff2') format('woff2'),
+        url('opensans-semibolditalic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'droid_serif';
+    src: url('Droid_font/droidserif-webfont.woff2') format('woff2'),
+        url('Droid_font/droidserif-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 1.3;
+}
+
+a[href*="http"] {
+    padding: left 0.59em;
+    text-decoration: none;
+    outline: none;
+    background: url(external-link-52.png);
+    background-size: .58em .58em;
+    background-position: 0 2px;
+    background-repeat: no-repeat;
+}
+
+a:link,
+a:visited,
+a:focus {
+    color: #BA7530;
+
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline dotted;
+    color: #D3B291;
+}
+
+a:active {
+    color: #EEE8E2;
+}
+
+section h2 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    font-family: "open-sans", sans-serif;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1.5em;
+    font-family: 'droid_serif', cursive, serifs;
+
+}
+
+aside h2 {
+    font-family: 'open sans', sans-serif;
+    font-size: 2em;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+section>p {
+    text-indent: 1em;
+
+}
+
+/* list styling */
+
+
+ul,
+ol,
+aside p {
+    font-size: 1.5em;
+}
+
+li {
+    line-height: 1.5em;
+    list-style-type: square;
+}
+
+nav {
+    padding-left: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    outline: none;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    font-family: 'open sans', sans-serif;
+    list-style-type: none;
+    line-height: 4em;
+    width: 100%;
+    border: 1.2px solid #BA7530;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+nav #navMenu a:hover,
+nav #navMenu a:focus {
+    text-decoration: none;
+    background-color: #BA7530;
+    color: white;
+}
